@@ -17,6 +17,10 @@ Valvoline runs about 2,400 service centers and completes 30M+ services a year. I
 | **3. What predicts installs, and do permissions matter?** | Engagement does; permissions barely matter. | In a Random Forest model of Auto & Vehicles installs, Rating Count and Rating carry **88%** of the weight; all 12 permission features together carry about **4%**. |
 | **4. Which revenue model should the app use?** | Free and ad-free, built around booking. | **97.7%** of 4.0★+ car apps are free to download, and the most common model (58.2%) is free with no ads or in-app purchases. |
 
+## Next step: calendar sync
+
+Feedback on the presentation suggested letting the app add each predicted service date to the driver's calendar, with a link to book. The data points to an open gap: none of the 35 recurring maintenance apps in the analysis request Calendar access, and only 177 of 7,403 Auto & Vehicles apps (2.4%) do. The Calendar permission also carries almost no weight in the install model (about 0.001), so asking for it when a driver adds a reminder shouldn't cost installs. The data shows the gap, not the effect, so the next step is a pilot that measures how many calendar reminders turn into bookings.
+
 ## The competitive opening
 
 | | My Firestone | Valvoline Instant Oil Change | Car Care Companion (target) |
